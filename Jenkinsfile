@@ -19,7 +19,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the latest code from your repository
-                checkout scm
+                  git branch: 'main', url: 'https://github.com/Saisankar99-dev/phythonweb'
             }
         }
         
